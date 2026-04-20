@@ -30,3 +30,6 @@ The goal is to analyse stock price trends, calculate daily returns, and identify
 - analysis.ipynb: Main Python analysis code
 - README.md: Project documentation
 - Reflection_Report.md: Personal reflection
+
+## Project Demo Video
+https://youtube.com/shorts/2i0Ra-orgjw?si=RgvvnpMSW8Bbx3iO
