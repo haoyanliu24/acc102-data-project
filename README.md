@@ -1,32 +1,32 @@
-# ACC102 Mini Assignment
+# ACC102 Python Data Analysis Project
+This project is a Python-based stock data analysis completed for the ACC102 module. It uses historical price data of Apple Inc. (AAPL) to perform data processing, descriptive analysis, and visualisation.
 
-## Project Overview
-This is my individual data analysis project for ACC102.
-I used Python to do a simple analysis of US stock price data from WRDS.
-
-## What I Did
-1.  Connected to WRDS and got stock data for AAPL and MSFT
-2.  Cleaned the data and removed missing values
-3.  Made a simple line chart to show price changes over time
-4.  Summarized basic findings
+## Purpose
+The goal is to analyse stock price trends, calculate daily returns, and identify patterns using moving averages. The project is designed for students and investors interested in basic financial data analysis.
 
 ## Data Source
-- Source: WRDS CRSP daily stock data
-- Access Date: 8 April 2026
-- Time period: 2023-01-01 to 2026-04-01
+- Data: Yahoo Finance (AAPL daily stock data)
+- Time range: 2020–2025
+- Access date: April 2026
 
-## Files in this Repository
-- `analysis.ipynb`: The main Python notebook with all my code
-- `README.md`: This project description file
-
-## How to Run the Code
-1.  Install required packages: `wrds`, `pandas`, `matplotlib`
-2.  Make sure you have a valid WRDS account
-3.  Run the `analysis.ipynb` notebook step by step in Jupyter
+## Tools & Methods
+- Python libraries: pandas, numpy, matplotlib, yfinance
+- Data cleaning and missing value removal
+- Daily return calculation
+- 50-day and 200-day moving averages
+- Visualisation of price trends and return distribution
 
 ## Key Findings
-- Both AAPL and MSFT showed an overall upward price trend in the past 3 years
-- AAPL's price grew faster than MSFT in this period
-- The chart clearly shows the price movement over time
+- Apple’s stock shows a clear long-term upward trend.
+- Moving averages help identify trend changes effectively.
+- Daily returns are relatively stable and centered near zero.
 
-## Demo Video
+## How to Run
+1. Install required packages: pip install pandas numpy matplotlib yfinance
+2. Open analysis.ipynb in Jupyter or VS Code
+3. Run all cells to see outputs and charts
+
+## Project Files
+- analysis.ipynb: Main Python analysis code
+- README.md: Project documentation
+- Reflection_Report.md: Personal reflection
